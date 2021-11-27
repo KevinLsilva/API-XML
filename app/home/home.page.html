@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      XML
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item *ngFor ="let item of items"> 
+  cep {{item.xmlcep.cep}} <br>
+  logradouro {{item.xmlcep.logradouro}} <br>
+  </ion-item>
+</ion-content>
